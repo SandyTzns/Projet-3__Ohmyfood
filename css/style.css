@@ -2,10 +2,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* HEADER */
+
 .title__shrikhand {
   font-family: "Shrikhand", cursive;
 }
 
 header h1 {
   text-align: center;
+}
+
+/* MAIN : SECTION - SEARCH */
+
+form {
+  display: flex;
+  justify-content: center;
 }
