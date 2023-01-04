@@ -88,6 +88,7 @@ h2 {
 
 .how-to {
   padding-top: 35px;
+  padding-bottom: 55px;
   display: flex;
   flex-direction: column;
   margin: 10px;
@@ -114,19 +115,21 @@ h2 {
 .menu {
   padding: 35px 10px 0 10px;
   background-color: #f7f7f7;
+  padding-bottom: 55px;
 }
 
 .menu article {
-  border: 1px solid black;
   display: grid;
   grid-template-areas:
     "resto1"
     "resto2"
     "resto3"
     "resto4";
-  row-gap: 12px;
+  row-gap: 10px;
   grid-template-rows: 174px 1fr;
   border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
 }
 
 .menu__article--1 {
@@ -148,4 +151,31 @@ h2 {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+}
+
+.menu article h2,
+h3 {
+  margin: 0;
+}
+
+.menu article h2 {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.menu article h3 {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.menu article i {
+  font-size: 28px;
+}
+
+.menu-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
 }
