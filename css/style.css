@@ -83,3 +83,24 @@ h2 {
     rgba(147, 86, 220, 1) 100%
   );
 }
+
+/* MAIN : SECTION - HOW-TO*/
+
+.how-to {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.how-to article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 20px 10px 0 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
+}
