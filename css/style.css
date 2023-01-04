@@ -104,3 +104,48 @@ h2 {
   border-radius: 20px;
   box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
 }
+
+.how-to p {
+  font-weight: 500;
+}
+
+/* MAIN : SECTION - MENU*/
+
+.menu {
+  padding: 35px 10px 0 10px;
+  background-color: #f7f7f7;
+}
+
+.menu article {
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas:
+    "resto1"
+    "resto2"
+    "resto3"
+    "resto4";
+  row-gap: 12px;
+  grid-template-rows: 174px 1fr;
+  border-radius: 20px;
+}
+
+.menu__article--1 {
+  grid-area: resto1;
+}
+
+.menu__article--2 {
+  grid-area: resto2;
+}
+.menu__article--3 {
+  grid-area: resto3;
+}
+.menu__article--4 {
+  grid-area: resto4;
+}
+
+.menu article img {
+  height: 174px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
