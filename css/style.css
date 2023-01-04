@@ -91,7 +91,7 @@ h2 {
   padding-bottom: 55px;
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 10px 15px 10px 15px;
 }
 
 .how-to article {
@@ -113,7 +113,7 @@ h2 {
 /* MAIN : SECTION - MENU*/
 
 .menu {
-  padding: 35px 10px 0 10px;
+  padding: 35px 15px 0 15px;
   background-color: #f7f7f7;
   padding-bottom: 55px;
 }
