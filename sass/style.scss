@@ -14,14 +14,14 @@ h2 {
 
 header {
   height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title__shrikhand {
   font-family: "Shrikhand", cursive;
-}
-
-header h1 {
-  text-align: center;
+  margin: 0;
 }
 
 /* MAIN : SECTION - SEARCH */
