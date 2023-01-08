@@ -1,0 +1,222 @@
+@import "utils/variables";
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+/* HEADER */
+
+header {
+  height: 63px;
+}
+
+.title__shrikhand {
+  font-family: "Shrikhand", cursive;
+}
+
+header h1 {
+  text-align: center;
+}
+
+/* MAIN : SECTION - SEARCH */
+
+.search {
+  background-color: #eaeaea;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 10px 10px -6px #cfcfcf inset;
+}
+
+form {
+  display: flex;
+
+  align-items: center;
+}
+
+.search input[type="text"] {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 130px;
+}
+
+.search input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+/* MAIN : SECTION - INTRO*/
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightgrey;
+}
+
+.intro h1,
+h2 {
+  text-align: center;
+}
+
+.btn {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 55px;
+  padding: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  border-radius: 35px;
+
+  background: linear-gradient(
+    170deg,
+    rgba(255, 121, 218, 1) 21%,
+    rgba(147, 86, 220, 1) 100%
+  );
+}
+
+/* MAIN : SECTION - HOW-TO*/
+
+.how-to {
+  padding-top: 35px;
+  padding-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px 10px 15px;
+}
+
+.how-to article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 20px 10px 0 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
+}
+
+.how-to p {
+  font-weight: 500;
+}
+
+/* MAIN : SECTION - MENU*/
+
+.menu {
+  padding: 35px 15px 0 15px;
+  background-color: $lightgrey;
+  padding-bottom: 55px;
+}
+
+.menu article {
+  display: grid;
+  grid-template-areas:
+    "resto1"
+    "resto2"
+    "resto3"
+    "resto4";
+  row-gap: 10px;
+  grid-template-rows: 174px 1fr;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
+}
+
+.menu__article--1 {
+  grid-area: resto1;
+}
+
+.menu__article--2 {
+  grid-area: resto2;
+}
+.menu__article--3 {
+  grid-area: resto3;
+}
+.menu__article--4 {
+  grid-area: resto4;
+}
+
+.menu article img {
+  height: 174px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.menu article h2,
+h3 {
+  margin: 0;
+}
+
+.menu article h2 {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.menu article h3 {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.menu article i {
+  font-size: 28px;
+}
+
+.menu-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #353535;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.title__shrikhand--footer {
+  font-family: "Shrikhand", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+footer ul li {
+  padding-bottom: 7px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul i {
+  margin-right: 10px;
+}
