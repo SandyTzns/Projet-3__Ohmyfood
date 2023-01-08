@@ -220,4 +220,23 @@ footer ul i {
   margin-right: 10px;
 }
 
-/*SECOND PAGE MENU PAGE 1*//*# sourceMappingURL=style.css.map */
+/*SECOND PAGE MENU PAGE 1*/
+.dish {
+  display: flex;
+  flex-direction: column;
+}
+
+.entree article,
+.plats article,
+.desserts article {
+  border: 1px solid sandybrown;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.entree article p,
+.plats article p,
+.desserts article p {
+  align-self: flex-end;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

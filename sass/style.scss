@@ -14,7 +14,7 @@ h2 {
 
 header {
   height: 63px;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -221,6 +221,23 @@ footer ul i {
   margin-right: 10px;
 }
 
-
 /*SECOND PAGE MENU PAGE 1*/
 
+.dish {
+  display: flex;
+  flex-direction: column;
+}
+
+.entree article,
+.plats article,
+.desserts article {
+  border: 1px solid sandybrown;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+  p {
+    align-self: flex-end;
+    margin: 0;
+  }
+}
