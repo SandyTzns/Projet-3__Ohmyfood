@@ -224,6 +224,17 @@ footer ul i {
 .dish {
   display: flex;
   flex-direction: column;
+  gap: 30px;
+}
+
+.dish h1 {
+  font-weight: 100;
+  font-size: 22px;
+  margin-left: 18px;
+  border-bottom: 2px solid #99e2d0;
+  border-bottom-width: medium;
+  width: 13%;
+  padding-bottom: 5px;
 }
 
 .entree article,
