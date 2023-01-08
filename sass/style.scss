@@ -69,16 +69,14 @@ h2 {
 }
 
 .btn {
-  width: 70%;
   margin-top: 20px;
   margin-bottom: 55px;
-  padding: 20px;
+  padding: 20px 50px;
   color: white;
   font-weight: 400;
   font-size: 16px;
   border: none;
   border-radius: 35px;
-
   background: linear-gradient(
     170deg,
     rgba(255, 121, 218, 1) 21%,
@@ -284,3 +282,4 @@ form {
   display: flex;
   justify-content: center;
 }
+
