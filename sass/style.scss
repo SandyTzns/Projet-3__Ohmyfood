@@ -15,7 +15,9 @@ p {
 
 header {
   height: 63px;
-  @include flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title__shrikhand {
@@ -28,7 +30,8 @@ header {
 .search {
   background-color: #eaeaea;
   height: 48px;
-  @include flex--jcenter;
+  display: flex;
+  justify-content: center;
   box-shadow: 0px 10px 10px -6px #cfcfcf inset;
 }
 
@@ -49,7 +52,8 @@ header {
 /* MAIN : SECTION - INTRO*/
 
 .intro {
-  @include flex--acenter;
+  display: flex;
+  align-items: center;
   flex-direction: column;
 
   background-color: $lightgrey;
@@ -87,7 +91,9 @@ h2 {
 }
 
 .how-to article {
-  @include flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   padding: 10px;
   margin: 20px 10px 0 10px;
