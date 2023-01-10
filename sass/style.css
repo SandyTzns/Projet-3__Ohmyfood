@@ -12,7 +12,6 @@ p {
 header {
   height: 63px;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -99,7 +98,6 @@ h2 {
 
 .how-to article {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 10px;
@@ -170,8 +168,8 @@ h3 {
 
 .menu-description {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding-left: 10px;
   padding-right: 20px;
 }
