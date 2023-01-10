@@ -1,0 +1,30 @@
+@import "../utils/_mixins";
+@import "./header";
+
+footer {
+  background-color: #353535;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+footer ul li {
+  padding-bottom: 7px;
+  letter-spacing: 0.5px;
+  font-weight: $regular;
+  font-size: 14px;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul i {
+  margin-right: 10px;
+}
