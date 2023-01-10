@@ -1,3 +1,5 @@
+@import "base/font";
+@import "base/margins";
 @import "layout/header";
 @import "utils/variables";
 @import "utils/mixins";
@@ -5,13 +7,13 @@
 @import "layout/footer";
 
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
+  font-family: $roboto;
+  margin: $none;
 }
 
 h1,
 h2 {
-  margin: 0;
+  margin: $none;
   padding: 15px 0px;
 }
 
@@ -19,7 +21,6 @@ p {
   font-weight: $thin;
   font-size: $regular_size;
 }
-
 
 /* MAIN : SECTION - SEARCH */
 
@@ -33,7 +34,7 @@ p {
 .search input[type="text"] {
   background-color: transparent;
   border: none;
-  text-align: center;
+  @include center;
   width: 130px;
 }
 
@@ -48,7 +49,7 @@ p {
 
 .intro {
   background-color: $lightgrey;
-  text-align: center;
+  @include center;
   padding: 10px;
 }
 
@@ -128,7 +129,7 @@ p {
 
 .menu article h2,
 h3 {
-  margin: 0;
+  margin: $none;
 }
 
 .menu article h2 {
@@ -146,8 +147,6 @@ h3 {
 }
 
 /* FOOTER */
-
-
 
 /*SECOND PAGE MENU PAGE 1*/
 
