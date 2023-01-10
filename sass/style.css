@@ -9,15 +9,24 @@ p {
 }
 
 /* HEADER */
-header {
+.header {
   height: 63px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.title__shrikhand {
+.logo {
   font-family: "Shrikhand", cursive;
   margin: 0;
+}
+.logo--footer {
+  font-family: "Shrikhand", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+  letter-spacing: 1px;
 }
 
 /* MAIN : SECTION - SEARCH */
@@ -27,11 +36,6 @@ header {
   display: flex;
   justify-content: center;
   box-shadow: 0px 10px 10px -6px #cfcfcf inset;
-}
-
-form {
-  display: flex;
-  align-items: center;
 }
 
 .search input[type=text] {
@@ -65,8 +69,8 @@ form {
 /* MAIN : SECTION - INTRO*/
 .intro {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   background-color: #f7f7f7;
 }
 
@@ -98,6 +102,7 @@ h2 {
 
 .how-to article {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 10px;
@@ -167,9 +172,6 @@ h3 {
 }
 
 .menu-description {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-left: 10px;
   padding-right: 20px;
 }
@@ -179,15 +181,6 @@ footer {
   background-color: #353535;
   padding-top: 15px;
   padding-bottom: 30px;
-}
-
-.title__shrikhand--footer {
-  font-family: "Shrikhand", cursive;
-  font-weight: 300;
-  font-size: 20px;
-  margin-left: 20px;
-  color: white;
-  letter-spacing: 1px;
 }
 
 footer ul {
