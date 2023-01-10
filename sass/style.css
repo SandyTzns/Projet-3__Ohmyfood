@@ -91,6 +91,7 @@ p {
   border: none;
   border-radius: 35px;
   background: linear-gradient(176deg, rgb(255, 121, 218) 21%, rgb(147, 86, 220) 100%);
+  box-shadow: 0px 4px 5px 1px #cfcfcf;
 }
 
 /* MAIN : SECTION - HOW-TO*/

@@ -1,3 +1,5 @@
+@import "../utils/_mixins";
+
 @mixin btn-backgroung {
   background: linear-gradient(
     176deg,
@@ -17,4 +19,5 @@
   border: none;
   border-radius: 35px;
   @include btn-backgroung();
+  @include bottom-shadow;
 }
