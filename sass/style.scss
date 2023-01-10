@@ -5,9 +5,9 @@ body {
   margin: 0;
 }
 
-h2 {
+p {
   font-weight: $thin;
-  font-size: 16px;
+  font-size: $regular_size;
 }
 
 /* HEADER */
@@ -50,7 +50,7 @@ form {
 .search input::placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: $medium;
-  font-size: 16px;
+  font-size: $regular_size;
   color: black;
 }
 
@@ -74,7 +74,7 @@ h2 {
   padding: 20px 50px;
   color: white;
   font-weight: $regular;
-  font-size: 16px;
+  font-size: $regular_size;
   border: none;
   border-radius: 35px;
   background: linear-gradient(
@@ -161,11 +161,6 @@ h3 {
 .menu article h2 {
   font-weight: $medium;
   padding-bottom: 5px;
-}
-
-.menu article h3 {
-  font-weight: $thin;
-  font-size: 16px;
 }
 
 .menu article i {
@@ -267,15 +262,13 @@ p {
   padding-top: 10px;
 }
 
-.dish-choice h2,
-p {
+.dish-choice h2 {
   font-weight: $bold;
   font-size: 20px;
 }
 
-.dish-choice h3 {
-  font-weight: $thin;
-  font-size: 17px;
+.p--bold {
+  font-weight: $bold;
 }
 
 form {
