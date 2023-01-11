@@ -61,7 +61,7 @@ p {
 
 .how-to {
   padding-top: 35px;
-  padding-bottom: 55px;
+  padding-bottom: $last-pbottom;
   display: flex;
   flex-direction: column;
   margin: 10px 15px 10px 15px;
@@ -89,7 +89,7 @@ p {
 .menu {
   padding: 35px 15px 0 15px;
   background-color: $lightgrey;
-  padding-bottom: 55px;
+  padding-bottom: $last-pbottom;
 }
 
 .menu article {
