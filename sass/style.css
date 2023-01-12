@@ -66,6 +66,70 @@ footer ul i {
   margin-right: 10px;
 }
 
+/* MAIN : SECTION - RESTAURANTS*/
+.restaurants {
+  padding: 35px 15px 0 15px;
+  background-color: #f7f7f7;
+  padding-bottom: 55px;
+}
+
+.restaurant {
+  display: grid;
+  grid-template-areas: "resto1" "resto2" "resto3" "resto4";
+  row-gap: 10px;
+  grid-template-rows: 174px 1fr;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 12px 1px hsla(0deg, 1%, 26%, 0.13);
+}
+
+.restaurant-one {
+  grid-area: resto1;
+}
+
+.restaurant-two {
+  grid-area: resto2;
+}
+
+.restaurant-three {
+  grid-area: resto3;
+}
+
+.restaurant-four {
+  grid-area: resto4;
+}
+
+.restaurant img {
+  height: 174px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.restaurant h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.restaurant-presentation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.restaurant-presentation h2 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.restaurant i {
+  font-size: 28px;
+}
+
 body {
   font-family: "Roboto", sans serif;
   margin: 0;
@@ -165,70 +229,6 @@ p {
 
 .how-to p {
   font-weight: 500;
-}
-
-/* MAIN : SECTION - RESTAURANTS*/
-.restaurants {
-  padding: 35px 15px 0 15px;
-  background-color: #f7f7f7;
-  padding-bottom: 55px;
-}
-
-.restaurant {
-  display: grid;
-  grid-template-areas: "resto1" "resto2" "resto3" "resto4";
-  row-gap: 10px;
-  grid-template-rows: 174px 1fr;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  box-shadow: 3px 5px 12px 1px hsla(0deg, 1%, 26%, 0.13);
-}
-
-.restaurant-one {
-  grid-area: resto1;
-}
-
-.restaurant-two {
-  grid-area: resto2;
-}
-
-.restaurant-three {
-  grid-area: resto3;
-}
-
-.restaurant-four {
-  grid-area: resto4;
-}
-
-.restaurant img {
-  height: 174px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
-
-.restaurant h2,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.restaurant-presentation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 20px;
-}
-
-.restaurant-presentation h2 {
-  font-size: 18px;
-  padding-bottom: 5px;
-}
-
-.restaurant i {
-  font-size: 28px;
 }
 
 /* FOOTER */

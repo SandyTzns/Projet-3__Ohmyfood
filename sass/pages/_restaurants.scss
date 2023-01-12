@@ -1,0 +1,67 @@
+@import "../utils/variables";
+
+/* MAIN : SECTION - RESTAURANTS*/
+
+.restaurants {
+  padding: 35px 15px 0 15px;
+  background-color: $lightgrey;
+  padding-bottom: $last-pbottom;
+}
+
+.restaurant {
+  display: grid;
+  grid-template-areas:
+    "resto1"
+    "resto2"
+    "resto3"
+    "resto4";
+  row-gap: 10px;
+  grid-template-rows: 174px 1fr;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
+}
+
+.restaurant-one {
+  grid-area: resto1;
+}
+
+.restaurant-two {
+  grid-area: resto2;
+}
+.restaurant-three {
+  grid-area: resto3;
+}
+.restaurant-four {
+  grid-area: resto4;
+}
+
+.restaurant img {
+  height: 174px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.restaurant h2,
+p {
+  margin: $none;
+  padding: $none;
+}
+
+.restaurant-presentation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.restaurant-presentation h2 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.restaurant i {
+  font-size: 28px;
+}
