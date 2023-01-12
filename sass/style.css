@@ -80,7 +80,7 @@ footer ul i {
   grid-template-rows: 174px 1fr;
   border-radius: 20px;
   margin-bottom: 20px;
-  box-shadow: 3px 5px 12px 1px hsla(0deg, 1%, 26%, 0.13);
+  box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
 }
 
 .restaurant-one {
@@ -205,29 +205,27 @@ p {
   box-shadow: 0px 4px 5px 1px #cfcfcf;
 }
 
-/* MAIN : SECTION - HOW-TO*/
-.how-to {
+/* MAIN : SECTION - EXPLANATION */
+.explanation {
+  margin: 15px;
   padding-top: 35px;
   padding-bottom: 55px;
-  display: flex;
-  flex-direction: column;
-  margin: 10px 15px 10px 15px;
 }
 
-.how-to article {
+.explanation article {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 5px 0px 5px 30px;
-  margin: 10px;
+  padding: 25px 10px;
+  margin: 25px;
   border: none;
   border-radius: 20px;
   box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
   background-color: #f7f7f7;
 }
 
-.how-to p {
+.explanation p {
   font-weight: 500;
 }
 
