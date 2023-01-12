@@ -6,6 +6,7 @@
 @import "composants/buttons";
 @import "layout/header";
 @import "layout/footer";
+@import "layout/menu-title";
 @import "pages/introduction";
 @import "pages/explanation";
 @import "pages/restaurants";
@@ -29,45 +30,10 @@ p {
 
 /*SECOND PAGE MENU PAGE 1*/
 
-.restaurant-pic {
-  display: grid;
-  grid-template-rows: 1fr 85px;
-}
-
-.restaurant-pic img {
-  width: 100%;
-  height: 120%;
-  object-fit: cover;
-  object-position: left bottom;
-}
-
-.restaurant-name {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 30px 0 10px;
-  background-color: white;
-  border-radius: 30px;
-}
-
-.restaurant-name i{
-  font-size: 25px;
-}
-
-.dish {
+.restaurant-dish {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-.dish h1 {
-  font-weight: $thin;
-  font-size: 22px;
-  margin-left: 18px;
-  border-bottom: 2px solid #99e2d0;
-  border-bottom-width: medium;
-  width: 13%;
-  padding-bottom: 5px;
 }
 
 .entree article,
