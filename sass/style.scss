@@ -5,6 +5,7 @@
 @import "composants/buttons";
 @import "layout/header";
 @import "layout/footer";
+@import "pages/explanation";
 @import "pages/restaurants";
 
 body {
@@ -60,26 +61,7 @@ p {
 
 /* MAIN : SECTION - EXPLANATION */
 
-.explanation {
-  margin: 15px;
-  padding-top: 35px;
-  padding-bottom: $last-pbottom;
-}
 
-.explanation article {
-  @include flex;
-  gap: 20px;
-  padding: 25px 10px;
-  margin: 25px;
-  border: none;
-  border-radius: 20px;
-  @include article-shadow;
-  background-color: #f7f7f7;
-}
-
-.explanation p {
-  font-weight: $medium;
-}
 
 /* FOOTER */
 
