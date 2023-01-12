@@ -2,6 +2,7 @@
 @import "utils/mixins";
 @import "base/font";
 @import "base/margins";
+@import "composants/search";
 @import "composants/buttons";
 @import "layout/header";
 @import "layout/footer";
@@ -26,26 +27,7 @@ p {
 
 /* MAIN : SECTION - SEARCH */
 
-.search {
-  background-color: #eaeaea;
-  height: 48px;
-  @include flex;
-  @include top-shadow;
-}
 
-.search input[type="text"] {
-  background-color: transparent;
-  border: none;
-  @include center;
-  width: 130px;
-}
-
-.search input::placeholder {
-  font-family: "Roboto", sans-serif;
-  font-weight: $medium;
-  font-size: $regular_size;
-  color: black;
-}
 
 /* MAIN : SECTION - INTRO*/
 
@@ -60,8 +42,6 @@ p {
 }
 
 /* MAIN : SECTION - EXPLANATION */
-
-
 
 /* FOOTER */
 
