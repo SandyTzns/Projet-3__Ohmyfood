@@ -18,7 +18,7 @@ h2 {
 }
 
 p {
-  font-weight: $thin;
+  font-weight: $light;
   font-size: $regular_size;
 }
 
@@ -92,7 +92,7 @@ p {
   padding-bottom: $last-pbottom;
 }
 
-.restaurants article {
+.restaurant {
   display: grid;
   grid-template-areas:
     "resto1"
@@ -110,7 +110,7 @@ p {
   grid-area: resto1;
 }
 
-.restaurant-two{
+.restaurant-two {
   grid-area: resto2;
 }
 .restaurant-three {
@@ -120,30 +120,34 @@ p {
   grid-area: resto4;
 }
 
-.restaurants article img {
+.restaurant img {
   height: 174px;
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 
-.restaurants article h2,
-h3 {
+.restaurant h2,
+p {
   margin: $none;
+  padding: $none;
 }
 
-.restaurants article h2 {
-  font-weight: $medium;
+.restaurant-presentation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.restaurant-presentation h2 {
+  font-size: 18px;
   padding-bottom: 5px;
 }
 
-.restaurantsarticle i {
+.restaurant i {
   font-size: 28px;
-}
-
-.restaurants-description {
-  padding-left: 10px;
-  padding-right: 20px;
 }
 
 /* FOOTER */
