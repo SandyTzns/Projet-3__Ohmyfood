@@ -6,6 +6,7 @@
 @import "composants/buttons";
 @import "layout/header";
 @import "layout/footer";
+@import "pages/introduction";
 @import "pages/explanation";
 @import "pages/restaurants";
 
@@ -31,15 +32,7 @@ p {
 
 /* MAIN : SECTION - INTRO*/
 
-.intro {
-  background-color: $lightgrey;
-  @include center;
-  padding: 10px;
-}
 
-.btn {
-  @include button;
-}
 
 /* MAIN : SECTION - EXPLANATION */
 

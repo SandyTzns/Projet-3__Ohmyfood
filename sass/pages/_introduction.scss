@@ -1,0 +1,13 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../composants/buttons";
+
+.intro {
+  background-color: $lightgrey;
+  @include center;
+  padding: 10px;
+}
+
+.btn {
+  @include button;
+}
