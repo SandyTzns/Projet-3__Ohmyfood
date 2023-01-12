@@ -11,6 +11,7 @@
 @import "pages/explanation";
 @import "pages/restaurants";
 @import "pages/menu";
+@import "pages/dishes";
 
 body {
   font-family: $roboto;
@@ -29,45 +30,6 @@ p {
 }
 
 /*SECOND PAGE MENU PAGE 1*/
-
-.restaurant-dish {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.entree article,
-.plats article,
-.desserts article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 68px;
-  margin: 20px 10px 0 10px;
-  padding: 8px;
-  border: none;
-  border-radius: 14px;
-  box-shadow: 1px 2px 16px 2px hsl(0deg 1% 26% / 13%);
-}
-
-.dish-choice {
-  display: flex;
-}
-
-.dish-info {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-
-.dish-choice h2 {
-  font-weight: $bold;
-  font-size: 20px;
-}
-
-.p--bold {
-  font-weight: $bold;
-}
 
 form {
   display: flex;

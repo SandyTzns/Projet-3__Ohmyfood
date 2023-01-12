@@ -254,6 +254,40 @@ p {
   font-size: 25px;
 }
 
+.restaurant-dish {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.dish-choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 68px;
+  margin: 20px 10px 0 10px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
+}
+
+.dish-choice h2 {
+  padding: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.p--bold {
+  font-weight: 700;
+}
+
+.dish-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
 body {
   font-family: "Roboto", sans serif;
   margin: 0;
@@ -271,45 +305,6 @@ p {
 }
 
 /*SECOND PAGE MENU PAGE 1*/
-.restaurant-dish {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.entree article,
-.plats article,
-.desserts article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 68px;
-  margin: 20px 10px 0 10px;
-  padding: 8px;
-  border: none;
-  border-radius: 14px;
-  box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
-}
-
-.dish-choice {
-  display: flex;
-}
-
-.dish-info {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-
-.dish-choice h2 {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.p--bold {
-  font-weight: 700;
-}
-
 form {
   display: flex;
   justify-content: center;
