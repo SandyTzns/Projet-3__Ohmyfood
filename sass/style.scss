@@ -84,15 +84,15 @@ p {
   font-weight: $medium;
 }
 
-/* MAIN : SECTION - MENU*/
+/* MAIN : SECTION - RESTAURANTS*/
 
-.menu {
+.restaurants {
   padding: 35px 15px 0 15px;
   background-color: $lightgrey;
   padding-bottom: $last-pbottom;
 }
 
-.menu article {
+.restaurants article {
   display: grid;
   grid-template-areas:
     "resto1"
@@ -106,42 +106,42 @@ p {
   box-shadow: 3px 5px 12px 1px hsl(0deg 1% 26% / 13%);
 }
 
-.menu__article--1 {
+.restaurant-one {
   grid-area: resto1;
 }
 
-.menu__article--2 {
+.restaurant-two{
   grid-area: resto2;
 }
-.menu__article--3 {
+.restaurant-three {
   grid-area: resto3;
 }
-.menu__article--4 {
+.restaurant-four {
   grid-area: resto4;
 }
 
-.menu article img {
+.restaurants article img {
   height: 174px;
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 
-.menu article h2,
+.restaurants article h2,
 h3 {
   margin: $none;
 }
 
-.menu article h2 {
+.restaurants article h2 {
   font-weight: $medium;
   padding-bottom: 5px;
 }
 
-.menu article i {
+.restaurantsarticle i {
   font-size: 28px;
 }
 
-.menu-description {
+.restaurants-description {
   padding-left: 10px;
   padding-right: 20px;
 }
