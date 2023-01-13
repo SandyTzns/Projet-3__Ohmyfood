@@ -237,8 +237,6 @@ p {
   height: 120%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: left bottom;
-     object-position: left bottom;
 }
 
 .restaurant-name {
