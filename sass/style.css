@@ -59,6 +59,13 @@
   color: white;
   letter-spacing: 1px;
 }
+.logo--restaurant {
+  font-family: "Shrikhand", cursive;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 0;
+}
 
 .header {
   height: 63px;
@@ -79,6 +86,13 @@
   margin-left: 20px;
   color: white;
   letter-spacing: 1px;
+}
+.logo--restaurant {
+  font-family: "Shrikhand", cursive;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 0;
 }
 
 footer {
@@ -109,25 +123,25 @@ footer ul i {
   margin-right: 10px;
 }
 
-.dishes h1 {
+.course {
   font-weight: 100;
-  font-size: 22px;
   margin-left: 18px;
   border-bottom: 2px solid #99e2d0;
   border-bottom-width: medium;
   width: 13%;
   padding-bottom: 5px;
+  padding-top: 0;
 }
 
 .intro {
   background-color: #f7f7f7;
   text-align: center;
   padding: 10px;
+  padding-bottom: 55px;
 }
 
 .btn {
   margin-top: 20px;
-  margin-bottom: 55px;
   padding: 15px 20px;
   color: white;
   font-weight: 500;
@@ -142,7 +156,7 @@ footer ul i {
 
 .explanation {
   margin: 15px;
-  padding-top: 35px;
+  padding-top: 15px;
   padding-bottom: 55px;
 }
 
@@ -232,14 +246,9 @@ p {
   font-size: 28px;
 }
 
-.restaurant-pic {
-  display: grid;
-  grid-template-rows: 1fr 85px;
-}
-
 .restaurant-pic img {
+  height: 100%;
   width: 100%;
-  height: 120%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -248,21 +257,20 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px 0 10px;
-  background-color: white;
-  border-radius: 30px;
+  padding: 0px 40px 0px 20px;
 }
 
 .restaurant-name i {
   font-size: 25px;
 }
 
-.dish {
+.dishes {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  -webkit-animation: Slidedown 1s ease-in;
-          animation: Slidedown 1s ease-in;
+  border-radius: 40px 40px;
+  background-color: white;
+  transform: translateY(-50px);
 }
 
 .dish-choice {

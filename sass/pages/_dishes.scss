@@ -1,10 +1,12 @@
 @import "../utils/variables";
 
-.dish {
+.dishes {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  animation: Slidedown 1s ease-in;
+  border-radius: 40px 40px;
+  background-color: white;
+  transform: translateY(-50px);
 }
 
 .dish-choice {
