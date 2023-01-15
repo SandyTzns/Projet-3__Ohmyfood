@@ -4,7 +4,7 @@
 .search {
   background-color: #eaeaea;
   height: 48px;
-  @include flex;
+  @include flex(center);
   @include top-shadow;
 }
 

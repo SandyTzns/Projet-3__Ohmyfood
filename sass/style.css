@@ -2,7 +2,7 @@
   background-color: #eaeaea;
   height: 48px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   box-shadow: 0px 10px 3px -7px #cfcfcf inset;
 }
@@ -42,7 +42,7 @@
 .header {
   height: 63px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -63,7 +63,7 @@
 .header {
   height: 63px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
