@@ -51,9 +51,7 @@ p {
 }
 
 .restaurant-presentation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex(space-between);
   padding-left: 10px;
   padding-right: 20px;
 }
