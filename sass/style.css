@@ -46,6 +46,12 @@
   align-items: center;
 }
 
+.header i {
+  position: relative;
+  left: -100px;
+  font-size: 20px;
+}
+
 .logo {
   font-family: "Shrikhand", cursive;
   margin: 0;
@@ -72,6 +78,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header i {
+  position: relative;
+  left: -100px;
+  font-size: 20px;
 }
 
 .logo {
@@ -162,7 +174,7 @@ footer ul i {
 
 .explanation article {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 25px;
   padding: 25px 10px;
@@ -301,31 +313,6 @@ p {
   padding-top: 5px;
 }
 
-@-webkit-keyframes Slidedown {
-  from {
-    margin-top: -15%;
-    width: 100%;
-    opacity: 0;
-  }
-  to {
-    margin-top: 0%;
-    width: 100%;
-    opacity: 1;
-  }
-}
-
-@keyframes Slidedown {
-  from {
-    margin-top: -15%;
-    width: 100%;
-    opacity: 0;
-  }
-  to {
-    margin-top: 0%;
-    width: 100%;
-    opacity: 1;
-  }
-}
 body {
   font-family: "Roboto", sans serif;
   margin: 0;
