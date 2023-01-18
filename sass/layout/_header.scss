@@ -1,6 +1,5 @@
 @import "../utils/_mixins";
 @import "../utils/variables";
-@import "../layout/media_queries.scss";
 
 .header {
   height: 63px;
@@ -35,5 +34,3 @@
     padding-bottom: 0;
   }
 }
-
-

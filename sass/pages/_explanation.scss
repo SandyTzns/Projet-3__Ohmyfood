@@ -5,6 +5,23 @@
   margin: 15px;
   padding-top: 15px;
   padding-bottom: $last-pbottom;
+
+  @media (min-width: 481px) {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.choices {
+  @media (min-width: 481px) {
+    display: flex;
+    gap: 20px;
+    padding: 10px ;
+    margin: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
 
 .explanation article {
@@ -16,6 +33,10 @@
   border-radius: 20px;
   @include article-shadow;
   background-color: #f7f7f7;
+
+  @media (min-width: 481px) {
+    gap: 15px;
+  }
 }
 
 .explanation p {

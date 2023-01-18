@@ -171,6 +171,24 @@ footer ul i {
   padding-top: 15px;
   padding-bottom: 55px;
 }
+@media (min-width: 481px) {
+  .explanation {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 481px) {
+  .choices {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}
 
 .explanation article {
   display: flex;
@@ -183,6 +201,11 @@ footer ul i {
   border-radius: 20px;
   box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
   background-color: #f7f7f7;
+}
+@media (min-width: 481px) {
+  .explanation article {
+    gap: 15px;
+  }
 }
 
 .explanation p {
@@ -199,6 +222,14 @@ footer ul i {
   padding: 35px 15px 0 15px;
   background-color: #f7f7f7;
   padding-bottom: 55px;
+}
+
+@media (min-width: 481px) {
+  .restaurant-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 35px;
+  }
 }
 
 .restaurant {
