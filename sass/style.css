@@ -179,33 +179,27 @@ footer ul i {
   }
 }
 
-@media (min-width: 481px) {
-  .choices {
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    margin: 10px;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
+.choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .explanation article {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
   padding: 25px 10px;
+  gap: 25px;
   margin: 20px;
   border: none;
   border-radius: 20px;
   box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
   background-color: #f7f7f7;
 }
-@media (min-width: 481px) {
-  .explanation article {
-    gap: 15px;
-  }
+.explanation article:hover {
+  background-color: rgba(255, 121, 218, 0.1);
 }
 
 .explanation p {
@@ -215,6 +209,19 @@ footer ul i {
 .explanation i {
   color: grey;
   font-size: 20px;
+}
+.explanation i:hover {
+  color: #9356dc;
+}
+
+.number {
+  position: absolute;
+  left: -15px;
+  display: inline;
+  background-color: #9356dc;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
 }
 
 /* MAIN : SECTION - RESTAURANTS*/

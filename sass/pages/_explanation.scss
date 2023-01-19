@@ -14,28 +14,24 @@
 }
 
 .choices {
-  @media (min-width: 481px) {
-    display: flex;
-    gap: 20px;
-    padding: 10px ;
-    margin: 10px;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .explanation article {
+  position: relative;
   @include flex;
-  gap: 25px;
   padding: 25px 10px;
+  gap: 25px;
   margin: 20px;
   border: none;
   border-radius: 20px;
   @include article-shadow;
   background-color: #f7f7f7;
 
-  @media (min-width: 481px) {
-    gap: 15px;
+  &:hover {
+    background-color: rgb(255, 121, 218, 0.1);
   }
 }
 
@@ -46,4 +42,18 @@
 .explanation i {
   color: grey;
   font-size: 20px;
+
+  &:hover {
+    color: #9356dc;
+  }
+}
+
+.number {
+  position: absolute;
+  left: -15px;
+  display: inline;
+  background-color: #9356dc;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
 }
