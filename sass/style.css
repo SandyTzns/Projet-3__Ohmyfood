@@ -233,12 +233,11 @@ footer ul i {
 
 @media (min-width: 481px) {
   .restaurant-wrapper {
-    display: flex;
-    gap: 20px;
-    padding-top: 35px;
+    display: grid;
+    grid-template-areas: "resto1 resto2" "resto3 resto4";
+    gap: 30px;
   }
 }
-
 .restaurant {
   display: grid;
   grid-template-areas: "resto1" "resto2" "resto3" "resto4";
