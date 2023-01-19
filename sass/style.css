@@ -239,6 +239,7 @@ footer ul i {
   }
 }
 .restaurant {
+  position: relative;
   display: grid;
   grid-template-areas: "resto1" "resto2" "resto3" "resto4";
   row-gap: 10px;
@@ -246,6 +247,18 @@ footer ul i {
   border-radius: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
+  z-index: auto;
+}
+.restaurant .new {
+  position: absolute;
+  background-color: #99e2d0;
+  padding: 5px 15px;
+  top: 15px;
+  left: 70%;
+  z-index: 1;
+  color: #299f82;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .restaurant-one {
@@ -293,6 +306,13 @@ p {
 
 .restaurant i {
   font-size: 28px;
+  transition: all 0.4s ease-out;
+}
+.restaurant i:hover {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(176deg, rgb(255, 121, 218) 21%, rgb(147, 86, 220) 100%);
 }
 
 .restaurant-pic img {
