@@ -353,6 +353,9 @@ p {
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
 }
+.dish-choice:hover .check {
+  margin-right: 0;
+}
 
 .sub-article {
   display: flex;
@@ -402,13 +405,13 @@ p {
 }
 
 .check {
-  border: 1px solid red;
   flex-grow: 0;
   background-color: #99e2d0;
   display: flex;
   align-items: center;
-  width: 9%;
-  margin-right: -28px;
+  justify-content: center;
+  width: 60px;
+  margin-right: -60px;
 }
 
 body {
