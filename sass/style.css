@@ -346,14 +346,19 @@ p {
 
 .dish-choice {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 68px;
   margin: 20px 10px 0 10px;
-  padding: 5px 15px;
+  overflow: hidden;
   border: none;
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
+}
+
+.sub-article {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px 15px;
 }
 
 .animation {
@@ -394,6 +399,16 @@ p {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
+}
+
+.check {
+  border: 1px solid red;
+  flex-grow: 0;
+  background-color: #99e2d0;
+  display: flex;
+  align-items: center;
+  width: 9%;
+  margin-right: -28px;
 }
 
 body {
