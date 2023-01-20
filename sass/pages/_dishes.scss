@@ -14,6 +14,7 @@
   height: 68px;
   margin: 20px 10px 0 10px;
   overflow: hidden;
+  white-space: nowrap;
   border: none;
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsl(0deg 1% 26% / 13%);
@@ -34,6 +35,9 @@
   flex-direction: column;
   flex-grow: 1;
   padding: 10px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .animation {
@@ -54,6 +58,12 @@
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
+}
+
+.composition {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .check {

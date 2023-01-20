@@ -189,7 +189,7 @@ footer ul i {
 }
 
 .btn {
-  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 15px 20px;
   color: white;
   font-weight: 500;
@@ -399,6 +399,7 @@ p {
   height: 68px;
   margin: 20px 10px 0 10px;
   overflow: hidden;
+  white-space: nowrap;
   border: none;
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
@@ -416,6 +417,9 @@ p {
   flex-direction: column;
   flex-grow: 1;
   padding: 10px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .animation {
@@ -437,6 +441,12 @@ p {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
+}
+
+.composition {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .check {
