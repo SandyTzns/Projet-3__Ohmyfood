@@ -19,6 +19,23 @@
   border: none;
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsl(0deg 1% 26% / 13%);
+ 
+}
+
+.animation{
+ animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms)
+    both;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .dish-choice h2 {
@@ -36,5 +53,3 @@
   justify-content: space-between;
   padding-top: 5px;
 }
-
-
