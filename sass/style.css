@@ -375,10 +375,16 @@ p {
 }
 
 .restaurant-pic img {
-  height: 100%;
-  width: 100%;
+  height: 50vh;
+  width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (min-width: 500px) {
+  .restaurant-pic img {
+    -o-object-position: 50% 62%;
+       object-position: 50% 62%;
+  }
 }
 
 .restaurant-name {
