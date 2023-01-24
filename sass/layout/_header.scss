@@ -4,11 +4,11 @@
 .header {
   height: 63px;
   @include flex;
-   position: relative;
+  position: relative;
 }
 
 .arrow {
- position: absolute;
+  position: absolute;
   left: 20px;
   font-size: 20px;
 }
