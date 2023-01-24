@@ -421,6 +421,7 @@ p {
   gap: 30px;
   border-radius: 40px 40px;
   background-color: white;
+  transform: translateY(-40px);
 }
 
 .dish-choice {
