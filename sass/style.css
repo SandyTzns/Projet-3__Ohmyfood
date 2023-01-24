@@ -226,9 +226,14 @@ footer ul i {
 }
 
 .choices {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+@media (min-width: 481px) {
+  .choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .explanation article {
