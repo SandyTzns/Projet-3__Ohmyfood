@@ -229,7 +229,7 @@ footer ul i {
   display: grid;
   grid-template-rows: 1fr;
 }
-@media (min-width: 481px) {
+@media (min-width: 925px) {
   .choices {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -252,6 +252,13 @@ footer ul i {
 .explanation article:hover {
   background-color: rgba(255, 121, 218, 0.1);
 }
+@media (min-width: 925px) {
+  .explanation article {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+  }
+}
 
 .explanation p {
   font-weight: 500;
@@ -260,6 +267,7 @@ footer ul i {
 .explanation i {
   color: grey;
   font-size: 20px;
+  margin-left: 20px;
 }
 .explanation i:hover {
   color: #9356dc;
@@ -305,7 +313,7 @@ footer ul i {
   background-color: #99e2d0;
   padding: 5px 15px;
   top: 15px;
-  left: 70%;
+  right: 15px;
   z-index: 1;
   color: #299f82;
   font-weight: 500;
