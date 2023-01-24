@@ -6,7 +6,10 @@
   background-color: $lightgrey;
   @include center;
   padding: 10px;
-  padding-bottom: 55px;
+}
+
+.intro p {
+  margin-bottom: 20px;
 }
 
 .btn {
