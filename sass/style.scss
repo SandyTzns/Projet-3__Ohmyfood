@@ -25,7 +25,8 @@ body {
   width: 100vw;
   background-color: white;
   z-index: 2;
-  animation: fade-out 4s ease-out both;
+  opacity: 0.9;
+  animation: fade-out 0.1s 2s ease-out both;
   @include flex;
 
   .dot {
@@ -49,12 +50,8 @@ body {
 }
 
 @keyframes fade-out {
-  0% {
-    opacity: 0.9;
-  }
-
-  100% {
-    opacity: 0;
+  to {
+    transform: scale(0);
   }
 }
 
