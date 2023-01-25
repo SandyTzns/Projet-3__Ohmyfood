@@ -6,7 +6,6 @@
   box-shadow: 0px 4px 5px 1px #cfcfcf;
 }
 
-
 @mixin article-shadow {
   box-shadow: 0px 0px 11px 5px hsl(0deg 1% 26% / 13%);
 }
@@ -20,3 +19,4 @@
 @mixin center {
   text-align: center;
 }
+
