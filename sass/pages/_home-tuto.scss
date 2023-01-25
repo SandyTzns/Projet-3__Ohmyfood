@@ -1,7 +1,7 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 
-.explanation {
+.tuto {
   margin: 15px;
   padding-top: 15px;
   padding-bottom: $last-pbottom;
@@ -11,19 +11,18 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
-}
 
-.choices {
-  display: grid;
-  grid-template-rows: 1fr;
-
-  @media (min-width: 925px) {
+  &__choices {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
+    grid-template-rows: 1fr;
 
-.explanation article {
+    @media (min-width: 925px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+ article {
   position: relative;
   @include flex;
 
@@ -44,28 +43,31 @@
     grid-template-columns: 30px 1fr;
     align-items: center;
   }
-}
 
-.explanation p {
-  font-weight: $medium;
-}
+  .number {
+    position: absolute;
+    left: -15px;
+    display: inline;
+    background-color: #9356dc;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
 
-.explanation i {
-  color: grey;
-  font-size: 20px;
-  margin-left: 20px;
+  p {
+    font-weight: $medium;
+  }
 
-  &:hover {
-    color: #9356dc;
+  i {
+    color: grey;
+    font-size: 20px;
+    margin-left: 20px;
+
+    &:hover {
+      color: #9356dc;
+    }
   }
 }
 
-.number {
-  position: absolute;
-  left: -15px;
-  display: inline;
-  background-color: #9356dc;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 50%;
 }
+
