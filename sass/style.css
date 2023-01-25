@@ -80,8 +80,7 @@
   align-items: center;
   position: relative;
 }
-
-.arrow {
+.header .arrow {
   position: absolute;
   left: 20px;
   font-size: 20px;
@@ -115,8 +114,7 @@
   align-items: center;
   position: relative;
 }
-
-.arrow {
+.header .arrow {
   position: absolute;
   left: 20px;
   font-size: 20px;
@@ -361,14 +359,14 @@ footer ul i {
     gap: 30px;
   }
 }
-.restaurant-pic img {
+.restaurant-banner img {
   height: 50vh;
   width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (min-width: 500px) {
-  .restaurant-pic img {
+  .restaurant-banner img {
     -o-object-position: 50% 62%;
        object-position: 50% 62%;
   }
