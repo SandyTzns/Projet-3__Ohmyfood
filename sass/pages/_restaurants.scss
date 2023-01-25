@@ -3,99 +3,99 @@
 
 /* MAIN : SECTION - RESTAURANTS*/
 
-.restaurants {
+.restaurant {
   padding: 35px 15px 0 15px;
   background-color: $lightgrey;
   padding-bottom: $last-pbottom;
+
+  &__card {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+      "resto1"
+      "resto2"
+      "resto3"
+      "resto4";
+    row-gap: 10px;
+    grid-template-rows: 174px 1fr;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    @include article-shadow;
+    z-index: auto;
+
+    .new {
+      position: absolute;
+      background-color: #99e2d0;
+      padding: 5px 15px;
+      top: 15px;
+      right: 15px;
+      z-index: 1;
+      color: #299f82;
+      font-weight: $medium;
+      font-size: 14px;
+    }
+
+    img {
+      height: 174px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 20px 20px 0 0;
+    }
+  }
+
+  &__infos {
+    @include flex(space-between);
+    padding-left: 10px;
+    padding-right: 20px;
+
+    i {
+      font-size: 28px;
+      transition: all 0.4s ease-out;
+
+      &:hover {
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(
+          176deg,
+          rgb(255, 121, 218) 21%,
+          rgb(147, 86, 220) 100%
+        );
+      }
+    }
+  }
+
+  &__name-city h2,
+p {
+  margin: $none;
+  padding: $none;
+}
+&__name-city h2 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
 }
 
+.card-one {
+  grid-area: resto1;
+}
+.card-two {
+  grid-area: resto2;
+}
+.card-three {
+  grid-area: resto3;
+}
+.card-four {
+  grid-area: resto4;
+}
+
+
+
 @media (min-width: 481px) {
-  .restaurant-wrapper {
+  .restaurant__wrapper {
     display: grid;
     grid-template-areas:
       "resto1 resto2"
       "resto3 resto4";
     gap: 30px;
-  }
-}
-
-.restaurant {
-  position: relative;
-  display: grid;
-  grid-template-areas:
-    "resto1"
-    "resto2"
-    "resto3"
-    "resto4";
-  row-gap: 10px;
-  grid-template-rows: 174px 1fr;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  @include article-shadow;
-  z-index: auto;
-
-  .new {
-    position: absolute;
-    background-color: #99e2d0;
-    padding: 5px 15px;
-    top: 15px;
-    right: 15px;
-    z-index: 1;
-    color: #299f82;
-    font-weight: $medium;
-    font-size: 14px;
-  }
-}
-
-.restaurant-one {
-  grid-area: resto1;
-}
-
-.restaurant-two {
-  grid-area: resto2;
-}
-.restaurant-three {
-  grid-area: resto3;
-}
-.restaurant-four {
-  grid-area: resto4;
-}
-
-.restaurant img {
-  height: 174px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
-
-.restaurant h2,
-p {
-  margin: $none;
-  padding: $none;
-}
-
-.restaurant-presentation {
-  @include flex(space-between);
-  padding-left: 10px;
-  padding-right: 20px;
-}
-
-.restaurant-presentation h2 {
-  font-size: 18px;
-  padding-bottom: 5px;
-}
-
-.restaurant i {
-  font-size: 28px;
-  transition: all 0.4s ease-out;
-
-  &:hover {
-    color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(
-      176deg,
-      rgb(255, 121, 218) 21%,
-      rgb(147, 86, 220) 100%
-    );
   }
 }
