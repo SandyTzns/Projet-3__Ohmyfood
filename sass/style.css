@@ -169,7 +169,7 @@ footer ul i {
   margin-right: 10px;
 }
 
-.course {
+.title {
   font-weight: 100;
   margin-left: 18px;
   border-bottom: 2px solid #99e2d0;
@@ -400,7 +400,7 @@ footer ul i {
     transform: rotate(360deg);
   }
 }
-.dishes {
+.menu {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -409,7 +409,7 @@ footer ul i {
   transform: translateY(-40px);
 }
 
-.dish-choice {
+.menu__card {
   display: flex;
   height: 68px;
   margin: 20px 10px 0 10px;
@@ -419,15 +419,15 @@ footer ul i {
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
 }
-.dish-choice:hover .check {
+.menu__card:hover .check {
   margin-right: 0;
 }
-.dish-choice:hover .checked {
+.menu__card:hover .checked {
   -webkit-animation: spin 0.6s ease-in-out both;
           animation: spin 0.6s ease-in-out both;
 }
 
-.sub-article {
+.menu__items {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -442,17 +442,19 @@ footer ul i {
           animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
 }
 
-.dish-choice h2 {
+.menu__card h2 {
   padding: 0;
   font-weight: 700;
   font-size: 18px;
+  margin-top: 0;
 }
 
 .p--bold {
   font-weight: 700;
+  margin-top: 0;
 }
 
-.dish-info {
+.menu__price {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
@@ -462,6 +464,7 @@ footer ul i {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-top: 0;
 }
 
 .check {

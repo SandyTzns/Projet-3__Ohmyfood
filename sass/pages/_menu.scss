@@ -1,7 +1,7 @@
 @import "../utils/variables";
 @import "../utils/animation";
 
-.dishes {
+.menu {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -10,7 +10,7 @@
   transform: translateY(-40px);
 }
 
-.dish-choice {
+.menu__card {
   display: flex;
   height: 68px;
   margin: 20px 10px 0 10px;
@@ -31,7 +31,7 @@
   }
 }
 
-.sub-article {
+.menu__items {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -45,26 +45,30 @@
   animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
 }
 
-.dish-choice h2 {
+.menu__card h2 {
   padding: $none;
   font-weight: $bold;
   font-size: 18px;
+  margin-top: 0;
 }
 
 .p--bold {
   font-weight: $bold;
+  margin-top: 0;
 }
 
-.dish-info {
+.menu__price {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
-}
+
+ }
 
 .composition {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-top: 0;
 }
 
 .check {
