@@ -1,6 +1,8 @@
 @import "../utils/variables";
 @import "../utils/animation";
 @import "../utils/mixins";
+@import "../composants/buttons";
+@import "../composants/form";
 
 .menu {
   @include flex-col;
@@ -8,6 +10,10 @@
   border-radius: 40px 40px;
   background-color: $bg-secondary;
   transform: translateY(-40px);
+
+  .btn {
+    @include button;
+  }
 }
 
 .menu__card {
