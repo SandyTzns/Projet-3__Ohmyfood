@@ -21,6 +21,13 @@
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsl(0deg 1% 26% / 13%);
 
+  h2 {
+    padding: $none;
+    font-weight: $bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+
   &:hover {
     .check {
       margin-right: 0;
@@ -43,15 +50,7 @@
 }
 
 .animation {
-  animation: fadeInDown 300ms ease-in-out calc(var(--animation-order) * 100ms)
-    both;
-}
-
-.menu__card h2 {
-  padding: $none;
-  font-weight: $bold;
-  font-size: 18px;
-  margin-top: 0;
+  animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
 }
 
 .p--bold {
