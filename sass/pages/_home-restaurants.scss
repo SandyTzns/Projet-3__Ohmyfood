@@ -4,7 +4,7 @@
 /* MAIN : SECTION - RESTAURANTS*/
 
 .restaurant {
-  padding: 35px 15px 0 15px;
+  @include padding($t: 35px, $r: 15px, $l: 15px);
   background-color: $lightgrey;
   padding-bottom: $last-pbottom;
 
@@ -19,14 +19,15 @@
     row-gap: 10px;
     grid-template-rows: 174px 1fr;
     border-radius: 20px;
-    margin-bottom: 20px;
+
+    @include margin($b: 20px);
     @include article-shadow;
     z-index: auto;
 
     .new {
       position: absolute;
       background-color: #99e2d0;
-      padding: 5px 15px;
+      @include pside(5px, 15px);
       top: 15px;
       right: 15px;
       z-index: 1;
@@ -45,8 +46,7 @@
 
   &__infos {
     @include flex(space-between);
-    padding-left: 10px;
-    padding-right: 20px;
+    @include padding($r: 20px, $l: 10px);
 
     i {
       font-size: 28px;
@@ -65,14 +65,15 @@
   }
 
   &__name-city h2,
-p {
-  margin: $none;
-  padding: $none;
-}
-&__name-city h2 {
-  font-size: 18px;
-  padding-bottom: 5px;
-}
+  p {
+    margin: $none;
+    padding: $none;
+  }
+  &__name-city h2 {
+    font-size: 18px;
+    @include padding($b:5px);
+   
+  }
 }
 
 .card-one {
@@ -87,8 +88,6 @@ p {
 .card-four {
   grid-area: resto4;
 }
-
-
 
 @media (min-width: 481px) {
   .restaurant__wrapper {

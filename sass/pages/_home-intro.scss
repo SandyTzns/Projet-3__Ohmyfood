@@ -7,7 +7,7 @@
   @include center;
 
   p {
-    @include margin($bottom:20px)
+    @include margin($b: 20px);
   }
 
   .btn {

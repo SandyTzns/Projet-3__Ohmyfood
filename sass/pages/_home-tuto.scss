@@ -2,14 +2,12 @@
 @import "../utils/mixins";
 
 .tuto {
-  margin: 15px;
-  padding-top: 15px;
-  padding-bottom: $last-pbottom;
+  @include margin($t: 15px, $r: 15px, $b: 15px, $l: 15px);
+  @include padding($t: 15px, $b: 55px);
 
   @media (min-width: 481px) {
-    margin-bottom: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    @include margin($b: 0);
+    @include padding($t: 5px, $b: 5px);
   }
 
   &__choices {
@@ -25,7 +23,7 @@
   article {
     position: relative;
     @include flex;
-    padding: 10px;
+    @include pside($tb: 10px, $lr: 10px);
     gap: 25px;
     margin: 20px;
     border: none;
@@ -53,7 +51,7 @@
       display: inline;
       background-color: #9356dc;
       color: white;
-      padding: 5px 10px;
+      @include pside($tb: 5px, $lr: 10px);
       border-radius: 50%;
     }
 
@@ -64,7 +62,7 @@
     i {
       color: grey;
       font-size: 20px;
-      margin-left: 20px;
+      @include margin($l: 20px);
     }
   }
 }

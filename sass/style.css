@@ -208,7 +208,10 @@ footer ul i {
 }
 
 .tuto {
-  margin: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
   padding-top: 15px;
   padding-bottom: 55px;
 }
@@ -234,7 +237,10 @@ footer ul i {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   gap: 25px;
   margin: 20px;
   border: none;
@@ -261,7 +267,10 @@ footer ul i {
   display: inline;
   background-color: #9356dc;
   color: white;
-  padding: 5px 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
   border-radius: 50%;
 }
 .tuto article p {
@@ -275,7 +284,9 @@ footer ul i {
 
 /* MAIN : SECTION - RESTAURANTS*/
 .restaurant {
-  padding: 35px 15px 0 15px;
+  padding-top: 35px;
+  padding-right: 15px;
+  padding-left: 15px;
   background-color: #f7f7f7;
   padding-bottom: 55px;
 }
@@ -293,7 +304,10 @@ footer ul i {
 .restaurant__card .new {
   position: absolute;
   background-color: #99e2d0;
-  padding: 5px 15px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
   top: 15px;
   right: 15px;
   z-index: 1;
@@ -312,8 +326,8 @@ footer ul i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
   padding-right: 20px;
+  padding-left: 10px;
 }
 .restaurant__infos i {
   font-size: 28px;
@@ -375,7 +389,10 @@ footer ul i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 40px 0px 20px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+  padding-left: 20px;
 }
 
 .restaurant-name i {
@@ -411,7 +428,10 @@ footer ul i {
 .menu__card {
   display: flex;
   height: 68px;
-  margin: 20px 10px 0 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 10px;
   overflow: hidden;
   white-space: nowrap;
   border: none;

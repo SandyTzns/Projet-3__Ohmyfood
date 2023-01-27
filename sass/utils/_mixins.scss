@@ -1,17 +1,30 @@
-@mixin padding($top: null, $right: null, $bottom: null, $left: null) {
-  padding-top: $top;
-  padding-right: $right;
-  padding-bottom: $bottom;
-  padding-left: $left;
+@mixin padding($t: null, $r: null, $b: null, $l: null) {
+  padding-top: $t;
+  padding-right: $r;
+  padding-bottom: $b;
+  padding-left: $l;
 }
 
-@mixin margin($top: null, $right: null, $bottom: null, $left: null) {
-  margin-top: $top;
-  margin-right: $right;
-  margin-bottom: $bottom;
-  margin-left: $left;
+@mixin pside($tb: null, $lr: null) {
+  padding-top: $tb;
+  padding-right: $lr;
+  padding-bottom: $tb;
+  padding-left: $lr;
 }
 
+@mixin margin($t: null, $r: null, $b: null, $l: null) {
+  margin-top: $t;
+  margin-right: $r;
+  margin-bottom: $b;
+  margin-left: $l;
+}
+
+@mixin mside($mtb: null, $mlr: null) {
+  margin-top: $mtb;
+  margin-right: $mlr;
+  margin-bottom: $mtb;
+ margin-left: $mlr;
+}
 
 @mixin top-shadow {
   box-shadow: 0px 10px 3px -7px #cfcfcf inset;
