@@ -14,3 +14,9 @@ $heart-color: linear-gradient(
   rgb(255, 121, 218) 21%,
   rgb(147, 86, 220) 100%
 );
+
+%overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

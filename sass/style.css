@@ -1,3 +1,9 @@
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -7,6 +13,7 @@
     opacity: 1;
   }
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -32,6 +39,12 @@
     transform: rotate(360deg);
   }
 }
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .search {
   background-color: #eaeaea;
   height: 48px;
@@ -73,6 +86,12 @@
   outline: none;
 }
 
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .header {
   height: 63px;
   display: flex;
@@ -105,6 +124,12 @@
   font-size: 26px;
   font-weight: 500;
   padding-bottom: 0;
+}
+
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .header {
@@ -169,6 +194,12 @@ footer ul i {
   margin-right: 10px;
 }
 
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .title {
   font-weight: 100;
   margin-left: 18px;
@@ -177,6 +208,12 @@ footer ul i {
   width: 13%;
   padding-bottom: 5px;
   padding-top: 0;
+}
+
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .intro {
@@ -205,6 +242,12 @@ footer ul i {
 .intro .btn:hover {
   box-shadow: 0px 4px 3px 1px rgba(94, 90, 90, 0.5607843137);
   transition: all 0.4s ease-in-out linear;
+}
+
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .tuto {
@@ -280,6 +323,12 @@ footer ul i {
   color: grey;
   font-size: 20px;
   margin-left: 20px;
+}
+
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* MAIN : SECTION - RESTAURANTS*/
@@ -399,6 +448,12 @@ footer ul i {
   font-size: 25px;
 }
 
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -432,8 +487,6 @@ footer ul i {
   margin-right: 10px;
   margin-bottom: 0;
   margin-left: 10px;
-  overflow: hidden;
-  white-space: nowrap;
   border: none;
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
@@ -461,10 +514,10 @@ footer ul i {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 10px 15px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
 }
 
 .menu__price {
@@ -473,9 +526,6 @@ footer ul i {
   padding-top: 5px;
 }
 .menu__price .composition {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   margin-top: 0;
 }
 .menu__price .p--bold {
@@ -487,8 +537,8 @@ footer ul i {
   flex-grow: 0;
   background-color: #99e2d0;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 60px;
   margin-right: -60px;
   transition: margin-right 0.6s;
