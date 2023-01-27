@@ -1,3 +1,18 @@
+@mixin padding($top: null, $right: null, $bottom: null, $left: null) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+@mixin margin($top: null, $right: null, $bottom: null, $left: null) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+
 @mixin top-shadow {
   box-shadow: 0px 10px 3px -7px #cfcfcf inset;
 }
@@ -19,4 +34,3 @@
 @mixin center {
   text-align: center;
 }
-
