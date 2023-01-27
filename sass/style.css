@@ -433,6 +433,11 @@ footer ul i {
           animation: spin 0.6s ease-in-out both;
 }
 
+.animation {
+  -webkit-animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
+          animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
+}
+
 .menu__items {
   display: flex;
   flex-direction: column;
@@ -443,26 +448,19 @@ footer ul i {
   text-overflow: ellipsis;
 }
 
-.animation {
-  -webkit-animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
-          animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
-}
-
-.p--bold {
-  font-weight: 700;
-  margin-top: 0;
-}
-
 .menu__price {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
 }
-
-.composition {
+.menu__price .composition {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-top: 0;
+}
+.menu__price .p--bold {
+  font-weight: 700;
   margin-top: 0;
 }
 
@@ -476,8 +474,7 @@ footer ul i {
   margin-right: -60px;
   transition: margin-right 0.6s;
 }
-
-.checked {
+.check .checked {
   color: white;
   font-size: 30px;
 }

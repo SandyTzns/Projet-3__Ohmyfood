@@ -28,6 +28,7 @@
     margin-top: 0;
   }
 
+ 
   &:hover {
     .check {
       margin-right: 0;
@@ -37,6 +38,10 @@
       animation: spin 0.6s ease-in-out both;
     }
   }
+}
+
+ .animation {
+  animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
 }
 
 .menu__items {
@@ -49,27 +54,28 @@
   text-overflow: ellipsis;
 }
 
-.animation {
-  animation: fadeInDown 1s ease-in-out calc(var(--animation-order) * 100ms) both;
+
+
+
+.menu__price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+
+  .composition {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 0;
 }
 
 .p--bold {
   font-weight: $bold;
   margin-top: 0;
 }
-
-.menu__price {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 5px;
 }
 
-.composition {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin-top: 0;
-}
+
 
 .check {
   flex-grow: 0;
@@ -80,9 +86,11 @@
   width: 60px;
   margin-right: -60px;
   transition: margin-right 0.6s;
-}
 
-.checked {
+  .checked {
   color: white;
   font-size: 30px;
 }
+}
+
+
