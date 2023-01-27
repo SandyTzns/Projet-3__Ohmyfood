@@ -3,7 +3,7 @@
 @import "../composants/buttons";
 
 .intro {
-  background-color: $lightgrey;
+  background-color: $bg-primary;
   @include center;
 
   p {

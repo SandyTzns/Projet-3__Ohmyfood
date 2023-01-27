@@ -25,17 +25,17 @@
     @include flex;
     @include pside($tb: 10px, $lr: 10px);
     gap: 25px;
-    margin: 20px;
+    @include mside(20px, 20px);
     border: none;
     border-radius: 20px;
     @include article-shadow;
-    background-color: #f7f7f7;
+    background-color: $bg-primary;
 
     &:hover {
       background-color: rgb(255, 121, 218, 0.1);
 
       i {
-        color: #9356dc;
+        color: $tertiary-color;
       }
     }
 
@@ -49,8 +49,8 @@
       position: absolute;
       left: -15px;
       display: inline;
-      background-color: #9356dc;
-      color: white;
+      background-color: $tertiary-color;
+      color: $bg-secondary;
       @include pside($tb: 5px, $lr: 10px);
       border-radius: 50%;
     }
@@ -60,7 +60,7 @@
     }
 
     i {
-      color: grey;
+      color: $primary-icon-color;
       font-size: 20px;
       @include margin($l: 20px);
     }

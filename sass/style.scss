@@ -1,8 +1,10 @@
 @import "utils/variables";
 @import "utils/mixins";
 @import "utils/animation";
+@import "base/elements";
 @import "base/font";
 @import "base/margins";
+@import "composants/form";
 @import "composants/home-search";
 @import "composants/buttons";
 @import "layout/header";
@@ -14,35 +16,3 @@
 @import "pages/home-restaurants";
 @import "pages/restaurant-banner";
 @import "pages/menu";
-
-body {
-  font-family: $roboto;
-  margin: $none;
-}
-
-
-
-
-
-h1,
-h2 {
-  margin: $none;
-  padding: 15px 0px;
-}
-
-p {
-  font-weight: $light;
-  font-size: $regular_size;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-/*SECOND PAGE MENU PAGE 1*/
-
-form {
-  display: flex;
-  justify-content: center;
-}

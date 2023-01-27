@@ -23,7 +23,7 @@
   margin-top: $mtb;
   margin-right: $mlr;
   margin-bottom: $mtb;
- margin-left: $mlr;
+  margin-left: $mlr;
 }
 
 @mixin top-shadow {
@@ -42,6 +42,11 @@
   display: flex;
   justify-content: $justify;
   align-items: $align;
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
 }
 
 @mixin center {
