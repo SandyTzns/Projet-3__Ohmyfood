@@ -17,3 +17,18 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fade-out {
+  to {
+    transform: scale(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

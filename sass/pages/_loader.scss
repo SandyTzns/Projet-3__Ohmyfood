@@ -1,0 +1,33 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../utils/animation";
+
+.loader {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 2;
+  opacity: 0.9;
+  animation: fade-out 0.1s 2s ease-out both;
+  @include flex;
+
+  .dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #99e2d0;
+    @include margin($r: 40px);
+    animation: bounce 0.4s linear infinite alternate;
+  }
+
+  .dot:nth-child(2) {
+    background-color: #ff79da;
+    animation-delay: 0.2s;
+  }
+
+  .dot:nth-child(3) {
+    background-color: #9356dc;
+    animation-delay: 0.3s;
+  }
+}
