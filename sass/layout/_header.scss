@@ -15,12 +15,12 @@
 }
 
 .logo {
-  font-family: "Shrikhand", cursive;
+  font-family: $shrikhand;
   margin: $none;
   padding: $none;
 
   &--footer {
-    font-family: "Shrikhand", cursive;
+    font-family: $shrikhand;
     font-weight: $light;
     font-size: $icon;
     margin-left: 20px;
@@ -29,7 +29,7 @@
   }
 
   &--restaurant {
-    font-family: "Shrikhand", cursive;
+    font-family: $shrikhand;
     margin-top: 10px;
     font-size: $restaurant-name;
     font-weight: $medium;
