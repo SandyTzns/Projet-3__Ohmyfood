@@ -76,6 +76,13 @@ body {
   margin: 0;
 }
 
+h1 {
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+}
+
 h1,
 h2 {
   margin: 0;
@@ -481,6 +488,41 @@ form {
   text-overflow: ellipsis;
 }
 
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+body {
+  font-family: "Roboto", sans serif;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding-top: 15px 0px;
+  padding-bottom: 15px 0px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* MAIN : SECTION - RESTAURANTS*/
 .restaurant {
   padding-top: 35px;
@@ -644,6 +686,41 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+body {
+  font-family: "Roboto", sans serif;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding-top: 15px 0px;
+  padding-bottom: 15px 0px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .menu {

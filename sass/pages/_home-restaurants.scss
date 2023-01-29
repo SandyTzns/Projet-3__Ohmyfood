@@ -1,5 +1,6 @@
 @import "../utils/variables";
 @import "../utils/mixins";
+@import "../base/elements";
 
 /* MAIN : SECTION - RESTAURANTS*/
 
@@ -71,8 +72,7 @@
   }
   &__name-city h2 {
     font-size: 18px;
-    @include padding($b:5px);
-   
+    @include padding($b: 5px);
   }
 }
 

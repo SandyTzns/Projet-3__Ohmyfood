@@ -3,10 +3,12 @@
 @import "../base/font";
 @import "../base/margins";
 
-
 body {
   font-family: $roboto;
   margin: $none;
+}
+h1 {
+  @include pside(15px, 0px);
 }
 
 h1,
@@ -24,5 +26,3 @@ a {
   text-decoration: none;
   color: $a-color;
 }
-
-

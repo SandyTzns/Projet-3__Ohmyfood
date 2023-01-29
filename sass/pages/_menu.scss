@@ -3,6 +3,7 @@
 @import "../utils/mixins";
 @import "../composants/buttons";
 @import "../composants/form";
+@import "../base/elements";
 
 .menu {
   @include flex-col;
