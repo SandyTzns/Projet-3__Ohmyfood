@@ -15,7 +15,7 @@
   .dot {
     height: 30px;
     width: 30px;
-    border-radius: 50%;
+    border-radius: $round;
     background-color: $primary-color;
     @include margin($r: 40px);
     animation: bounce 0.4s linear infinite alternate;

@@ -10,10 +10,10 @@
 
 .restaurant-name {
   @include flex(space-between);
-  @include padding(0px, 40px, 0px, 20px);
+padding :0px 40px 0px 20px;
  
 }
 
 .restaurant-name i {
-  font-size: 25px;
+  font-size: $icon;
 }

@@ -8,7 +8,7 @@
 .menu {
   @include flex-col;
   gap: 30px;
-  border-radius: 40px 40px;
+  border-radius: $radius-l $radius-l;
   background-color: $bg-secondary;
   transform: translateY(-40px);
 
@@ -18,11 +18,11 @@
 }
 
 .restaurant-name i {
-  font-size: 28px;
+  font-size: $icon;
   transition: all 0.4s ease-out;
 
   &:hover {
-    color: $secondary-icon-color;
+    color: $no-color;
     background-clip: text;
     background-image: linear-gradient(
       176deg,
@@ -35,16 +35,16 @@
 .menu__card {
   display: flex;
   height: 68px;
-  @include margin(20px, 10px, 0, 10px);
+  margin: 20px 10px 0 10px;
   @extend %overflow;
-  border: none;
-  border-radius: 14px;
+  border: $none;
+  border-radius: $radius-sm;
   box-shadow: 1px 2px 16px 2px hsl(0deg 1% 26% / 13%);
 
   h2 {
     padding: $none;
     font-weight: $bold;
-    font-size: 18px;
+    font-size: $title;
     @include margin(0);
   }
 
@@ -67,7 +67,7 @@
 .menu__items {
   @include flex-col;
   flex-grow: 1;
-  @include pside(10px, 15px);
+  padding: 10px 15px;
   @extend %overflow;
 }
 
@@ -75,7 +75,7 @@
   @include flex($justify: space-between);
   display: flex;
   justify-content: space-between;
-  @include padding(5px);
+  padding-top: 5px;
 
   .composition {
     @extend %overflow;
@@ -98,6 +98,6 @@
 
   .checked {
     color: $bg-secondary;
-    font-size: 30px;
+    font-size: $icon;
   }
 }

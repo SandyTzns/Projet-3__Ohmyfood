@@ -5,7 +5,7 @@
 /* MAIN : SECTION - RESTAURANTS*/
 
 .restaurant {
-  @include padding($t: 35px, $r: 15px, $l: 15px);
+  padding: 35px 15px 0 15px;
   background-color: $bg-primary;
   padding-bottom: $last-pbottom;
 
@@ -19,7 +19,7 @@
       "resto4";
     row-gap: 10px;
     grid-template-rows: 174px 1fr;
-    border-radius: 20px;
+    border-radius: $radius-m;
 
     @include margin($b: 20px);
     @include article-shadow;
@@ -28,20 +28,20 @@
     .new {
       position: absolute;
       background-color: $primary-color;
-      @include pside(5px, 15px);
+      padding: 5px 15px;
       top: 15px;
       right: 15px;
       z-index: 1;
       color: $new-text-color;
       font-weight: $medium;
-      font-size: 14px;
+      font-size: $tag;
     }
 
     img {
       height: 174px;
       width: 100%;
       object-fit: cover;
-      border-radius: 20px 20px 0 0;
+      border-radius: $radius-m $radius-m $none $none;
     }
   }
 
@@ -50,11 +50,11 @@
     @include padding($r: 20px, $l: 10px);
 
     i {
-      font-size: 28px;
+      font-size: $icon;
       transition: all 0.4s ease-out;
 
       &:hover {
-        color: $secondary-icon-color;
+        color: $no-color;
         background-clip: text;
         background-image: linear-gradient(
           176deg,
@@ -71,8 +71,8 @@
     padding: $none;
   }
   &__name-city h2 {
-    font-size: 18px;
-    @include padding($b: 5px);
+    font-size: $title;
+    padding-bottom: $pm-sm;
   }
 }
 

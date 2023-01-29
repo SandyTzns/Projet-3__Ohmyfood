@@ -2,7 +2,7 @@
 @import "../utils/mixins";
 
 .tuto {
-  @include margin($t: 15px, $r: 15px, $b: 15px, $l: 15px);
+ margin: 15px;
   @include padding($t: 15px, $b: 55px);
 
   @media (min-width: 481px) {
@@ -23,16 +23,16 @@
   article {
     position: relative;
     @include flex;
-    @include pside($tb: 10px, $lr: 10px);
+    padding: 10px;
+    margin: 20px;
     gap: 25px;
-    @include mside(20px, 20px);
     border: none;
-    border-radius: 20px;
+    border-radius: $radius-m;
     @include article-shadow;
     background-color: $bg-primary;
 
     &:hover {
-      background-color: rgb(255, 121, 218, 0.1);
+      background-color: $bg-tuto;
 
       i {
         color: $tertiary-color;
@@ -51,8 +51,8 @@
       display: inline;
       background-color: $tertiary-color;
       color: $bg-secondary;
-      @include pside($tb: 5px, $lr: 10px);
-      border-radius: 50%;
+      padding: 5px 10px;
+      border-radius: $round;
     }
 
     p {
@@ -61,7 +61,7 @@
 
     i {
       color: $primary-icon-color;
-      font-size: 20px;
+      font-size: $icon;
       @include margin($l: 20px);
     }
   }

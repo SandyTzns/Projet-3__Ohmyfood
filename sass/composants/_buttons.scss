@@ -1,6 +1,6 @@
 @import "../utils/mixins";
 @import "../utils/variables";
-@import "../base/margins";
+
 
 @mixin btn-backgroung {
   background: linear-gradient(
@@ -21,12 +21,12 @@
 @mixin button {
   margin: 20px 0 50px 0;
   padding: 15px 20px;
-  color: white;
+  color: $bg-secondary;
   font-weight: $medium;
-  font-size: $regular_size;
-  letter-spacing: 0.3px;
+  font-size: $regular;
+  letter-spacing: $space-btn;
   border: $none;
-  border-radius: 35px;
+  border-radius: $radius-btn;
   @include btn-backgroung();
   @include bottom-shadow;
   cursor: pointer;

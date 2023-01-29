@@ -1,25 +1,22 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 @import "../base/font";
-@import "../base/margins";
+
 
 body {
   font-family: $roboto;
   margin: $none;
 }
-h1 {
-  @include pside(15px, 0px);
-}
 
 h1,
 h2 {
   margin: $none;
-  @include pside(15px 0px);
+  padding : 15px 0px;
 }
 
 p {
   font-weight: $light;
-  font-size: $regular_size;
+  font-size: $regular;
 }
 
 a {

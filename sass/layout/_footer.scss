@@ -1,8 +1,9 @@
 @import "../utils/_mixins";
 @import "./header";
+@import "../utils/variables";
 
 footer {
-  background-color: #353535;
+  background-color: $bg-footer;
   padding-top: 15px;
   padding-bottom: 30px;
 }
@@ -10,19 +11,19 @@ footer {
 footer ul {
   list-style: none;
   padding-left: 20px;
-  margin: 0;
+  margin: $none;
 }
 
 footer ul li {
-  padding-bottom: 7px;
-  letter-spacing: 0.5px;
+  padding-bottom: $pm-sm;
+  letter-spacing: $space_foot;
   font-weight: $regular;
-  font-size: 14px;
+  font-size: $regular;
 }
 
 footer ul a {
   text-decoration: none;
-  color: white;
+  color: $bg-secondary;
 }
 
 footer ul i {

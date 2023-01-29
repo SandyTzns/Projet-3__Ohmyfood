@@ -76,18 +76,10 @@ body {
   margin: 0;
 }
 
-h1 {
-  padding-top: 15px;
-  padding-right: 0px;
-  padding-bottom: 15px;
-  padding-left: 0px;
-}
-
 h1,
 h2 {
   margin: 0;
-  padding-top: 15px 0px;
-  padding-bottom: 15px 0px;
+  padding: 15px 0px;
 }
 
 p {
@@ -175,7 +167,7 @@ form {
 .header .arrow {
   position: absolute;
   left: 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .logo {
@@ -186,7 +178,7 @@ form {
 .logo--footer {
   font-family: "Shrikhand", cursive;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 20px;
   color: white;
   letter-spacing: 1px;
@@ -215,7 +207,7 @@ form {
 .header .arrow {
   position: absolute;
   left: 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .logo {
@@ -226,7 +218,7 @@ form {
 .logo--footer {
   font-family: "Shrikhand", cursive;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 20px;
   color: white;
   letter-spacing: 1px;
@@ -237,6 +229,12 @@ form {
   font-size: 26px;
   font-weight: 500;
   padding-bottom: 0;
+}
+
+.menu__price .composition, .menu__items, .menu__card {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 footer {
@@ -252,10 +250,10 @@ footer ul {
 }
 
 footer ul li {
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   letter-spacing: 0.5px;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 16px;
+  font-size: 16px;
 }
 
 footer ul a {
@@ -405,10 +403,7 @@ form {
 }
 
 .tuto {
-  margin-top: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px;
+  margin: 15px;
   padding-top: 15px;
   padding-bottom: 55px;
 }
@@ -434,15 +429,9 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px;
+  margin: 20px;
   gap: 25px;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
   border: none;
   border-radius: 20px;
   box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
@@ -467,10 +456,7 @@ form {
   display: inline;
   background-color: #9356dc;
   color: white;
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-left: 10px;
+  padding: 5px 10px;
   border-radius: 50%;
 }
 .tuto article p {
@@ -478,7 +464,7 @@ form {
 }
 .tuto article i {
   color: grey;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 20px;
 }
 
@@ -499,18 +485,10 @@ body {
   margin: 0;
 }
 
-h1 {
-  padding-top: 15px;
-  padding-right: 0px;
-  padding-bottom: 15px;
-  padding-left: 0px;
-}
-
 h1,
 h2 {
   margin: 0;
-  padding-top: 15px 0px;
-  padding-bottom: 15px 0px;
+  padding: 15px 0px;
 }
 
 p {
@@ -525,9 +503,7 @@ a {
 
 /* MAIN : SECTION - RESTAURANTS*/
 .restaurant {
-  padding-top: 35px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 35px 15px 0 15px;
   background-color: #f7f7f7;
   padding-bottom: 55px;
 }
@@ -545,10 +521,7 @@ a {
 .restaurant__card .new {
   position: absolute;
   background-color: #99e2d0;
-  padding-top: 5px;
-  padding-right: 15px;
-  padding-bottom: 5px;
-  padding-left: 15px;
+  padding: 5px 15px;
   top: 15px;
   right: 15px;
   z-index: 1;
@@ -571,7 +544,7 @@ a {
   padding-left: 10px;
 }
 .restaurant__infos i {
-  font-size: 28px;
+  font-size: 25px;
   transition: all 0.4s ease-out;
 }
 .restaurant__infos i:hover {
@@ -630,10 +603,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0px;
-  padding-right: 40px;
-  padding-bottom: 0px;
-  padding-left: 20px;
+  padding: 0px 40px 0px 20px;
 }
 
 .restaurant-name i {
@@ -699,18 +669,10 @@ body {
   margin: 0;
 }
 
-h1 {
-  padding-top: 15px;
-  padding-right: 0px;
-  padding-bottom: 15px;
-  padding-left: 0px;
-}
-
 h1,
 h2 {
   margin: 0;
-  padding-top: 15px 0px;
-  padding-bottom: 15px 0px;
+  padding: 15px 0px;
 }
 
 p {
@@ -753,7 +715,7 @@ a {
 }
 
 .restaurant-name i {
-  font-size: 28px;
+  font-size: 25px;
   transition: all 0.4s ease-out;
 }
 .restaurant-name i:hover {
@@ -766,11 +728,8 @@ a {
 .menu__card {
   display: flex;
   height: 68px;
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-bottom: 0;
-  margin-left: 10px;
-  border: none;
+  margin: 20px 10px 0 10px;
+  border: 0;
   border-radius: 14px;
   box-shadow: 1px 2px 16px 2px hsla(0deg, 1%, 26%, 0.13);
 }
@@ -799,10 +758,7 @@ a {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
+  padding: 10px 15px;
 }
 
 .menu__price {
@@ -833,5 +789,5 @@ a {
 }
 .check .checked {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */

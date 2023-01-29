@@ -2,14 +2,14 @@
 @import "../utils/mixins";
 
 .search {
-  background-color: #eaeaea;
+  background-color: $bg-input;
   height: 48px;
   @include flex(center);
   @include top-shadow;
 }
 
 .search input[type="text"] {
-  background-color: transparent;
+  background-color: $no-color;
   border: none;
   @include center;
   width: 130px;
@@ -18,8 +18,8 @@
 .search input::placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: $medium;
-  font-size: $regular_size;
-  color: black;
+  font-size: $regular;
+  color: $a-color;
 }
 
 .search input:focus {

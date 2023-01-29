@@ -1,6 +1,7 @@
 @import "../utils/_mixins";
 @import "../utils/variables";
 
+
 .header {
   height: 63px;
   @include flex;
@@ -9,29 +10,29 @@
   .arrow {
     position: absolute;
     left: 20px;
-    font-size: 20px;
+    font-size: $icon;
   }
 }
 
 .logo {
   font-family: "Shrikhand", cursive;
-  margin: 0;
-  padding: 0;
+  margin: $none;
+  padding: $none;
 
   &--footer {
     font-family: "Shrikhand", cursive;
     font-weight: $light;
-    font-size: 20px;
+    font-size: $icon;
     margin-left: 20px;
-    color: white;
-    letter-spacing: 1px;
+    color: $bg-secondary;
+    letter-spacing: $space-head;
   }
 
   &--restaurant {
     font-family: "Shrikhand", cursive;
     margin-top: 10px;
-    font-size: 26px;
+    font-size: $restaurant-name;
     font-weight: $medium;
-    padding-bottom: 0;
+    padding-bottom: $none;
   }
 }
