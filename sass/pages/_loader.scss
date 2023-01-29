@@ -9,7 +9,7 @@
   background-color: $bg-secondary;
   z-index: 2;
   opacity: 0.9;
-  animation: fade-out 0.1s ease-out 0.5s both;
+  animation: fade-out 1s ease-in 1s both;
   @include flex;
 
   .dot {
