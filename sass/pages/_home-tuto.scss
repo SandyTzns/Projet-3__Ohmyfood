@@ -2,12 +2,11 @@
 @import "../utils/mixins";
 
 .tuto {
- margin: 15px;
-  @include padding($t: 15px, $b: 55px);
+  margin: 15px;
+  padding-bottom: 30px;
 
   @media (min-width: 481px) {
     @include margin($b: 0);
-    @include padding($t: 5px, $b: 5px);
   }
 
   &__choices {

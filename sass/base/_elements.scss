@@ -2,7 +2,6 @@
 @import "../utils/mixins";
 @import "../base/font";
 
-
 body {
   font-family: $roboto;
   margin: $none;
@@ -11,7 +10,7 @@ body {
 h1,
 h2 {
   margin: $none;
-  padding : 15px 0px;
+  padding: 15px 0px;
 }
 
 p {
@@ -22,4 +21,10 @@ p {
 a {
   text-decoration: none;
   color: $a-color;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
 }
