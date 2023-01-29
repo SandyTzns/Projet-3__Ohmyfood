@@ -23,6 +23,10 @@ a {
   color: $a-color;
 }
 
+button a {
+  color: $bg-secondary;
+}
+
 ul {
   list-style: none;
   padding: 0;

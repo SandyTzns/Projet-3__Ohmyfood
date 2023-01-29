@@ -92,6 +92,10 @@ a {
   color: black;
 }
 
+button a {
+  color: white;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -506,6 +510,10 @@ a {
   color: black;
 }
 
+button a {
+  color: white;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -695,6 +703,10 @@ p {
 a {
   text-decoration: none;
   color: black;
+}
+
+button a {
+  color: white;
 }
 
 ul {
