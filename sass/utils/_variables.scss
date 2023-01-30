@@ -12,14 +12,13 @@ $a-color: black;
 
 $primary-icon-color: grey;
 
-
 $heart-color: linear-gradient(
   176deg,
   rgb(255, 121, 218) 21%,
   rgb(147, 86, 220) 100%
 );
 
-$bg-tuto:rgb(255, 121, 218, 0.1); 
+$bg-tuto: rgb(255, 121, 218, 0.1);
 
 // FONT-WEIGHT
 $thin: 100;
@@ -29,16 +28,16 @@ $medium: 500;
 $bold: 700;
 
 // FONT-SIZE
-$regular: 16px;
+$regular-size: 16px;
 $icon: 25px;
 $restaurant-name: 26px;
 $tag: 14px;
-$title:18px;
+$title: 18px;
 
 //LETTER-SPACING
-$space-btn:0.3px;
-$space_foot:0.5px;
-$space-head:1px;
+$space-btn: 0.3px;
+$space_foot: 0.5px;
+$space-head: 1px;
 
 //BORDER-RADIUS
 $radius-sm: 14px;
@@ -48,7 +47,7 @@ $radius-btn: 35px;
 $round: 50%;
 
 // PADDING & MARGIN
-$pm-sm:5px;
+$pm-sm: 5px;
 $last-pbottom: 55px;
 
 //ALL

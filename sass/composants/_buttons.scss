@@ -1,7 +1,6 @@
 @import "../utils/mixins";
 @import "../utils/variables";
 
-
 @mixin btn-backgroung {
   background: linear-gradient(
     176deg,
@@ -23,7 +22,7 @@
   padding: 15px 20px;
   color: $bg-secondary;
   font-weight: $medium;
-  font-size: $regular;
+  font-size: $regular-size;
   letter-spacing: $space-btn;
   border: $none;
   border-radius: $radius-btn;
@@ -33,6 +32,6 @@
 
   &:hover {
     box-shadow: 0px 4px 3px 1px #5e5a5a8f;
-    transition: all 0.4s ease-in-out linear;
+    transition: all 0.4s ease-in-out;
   }
 }
