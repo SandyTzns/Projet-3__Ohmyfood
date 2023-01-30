@@ -41,12 +41,12 @@
 }
 @-webkit-keyframes fade-out {
   to {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 @keyframes fade-out {
   to {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 @-webkit-keyframes bounce {
@@ -318,7 +318,7 @@ footer ul i {
 }
 @keyframes fade-out {
   to {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 @keyframes bounce {
@@ -336,8 +336,8 @@ footer ul i {
   background-color: white;
   z-index: 2;
   opacity: 0.9;
-  -webkit-animation: fade-out 1s ease-in 1s both;
-          animation: fade-out 1s ease-in 1s both;
+  -webkit-animation: fade-out 1s ease-out 1s forwards;
+          animation: fade-out 1s ease-out 1s forwards;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -655,7 +655,7 @@ ul {
 }
 @keyframes fade-out {
   to {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 @keyframes bounce {
@@ -866,4 +866,4 @@ ul {
 .check .checked {
   color: white;
   font-size: 25px;
-}/*# sourceMappingURL=style.css.map */
+}

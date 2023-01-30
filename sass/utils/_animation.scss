@@ -20,7 +20,7 @@
 
 @keyframes fade-out {
   to {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 
