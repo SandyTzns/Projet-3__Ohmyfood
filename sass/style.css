@@ -617,8 +617,8 @@ ul {
 @media (max-width: 600px) {
   .restaurant-banner img {
     height: 25vh;
-    -o-object-position: 50% 70%;
-       object-position: 50% 70%;
+    -o-object-position: 50% 100%;
+       object-position: 50% 100%;
   }
 }
 @media (min-width: 601px) and (max-width: 800px) {
