@@ -605,7 +605,7 @@ ul {
   grid-area: resto4;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 700px) {
   .restaurant__wrapper {
     display: grid;
     grid-template-areas: "resto1 resto2" "resto3 resto4";
