@@ -615,25 +615,17 @@ ul {
   }
 }
 .restaurant-banner img {
-  height: 50vh;
+  height: 35vh;
   width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 60%;
      object-position: 50% 60%;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .restaurant-banner img {
-    height: 25vh;
-    -o-object-position: 50% 100%;
-       object-position: 50% 100%;
-  }
-}
-@media (min-width: 601px) and (max-width: 800px) {
-  .restaurant-banner img {
-    height: 30vh;
-    -o-object-position: 50% 70%;
-       object-position: 50% 70%;
+    -o-object-position: 50% 75%;
+       object-position: 50% 75%;
   }
 }
 

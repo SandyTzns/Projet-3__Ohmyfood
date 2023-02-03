@@ -1,17 +1,11 @@
 .restaurant-banner img {
-  height: 50vh;
+  height: 35vh;
   width: 100vw;
   object-fit: cover;
   object-position: 50% 60%;
 
-  @media (max-width: 600px) {
-    height: 25vh;
-    object-position: 50% 100%;
-  }
-
-  @media (min-width: 601px) and (max-width: 800px) {
-    height: 30vh;
-    object-position: 50% 70%;
+  @media (max-width: 700px) {
+    object-position: 50% 75%;
   }
 }
 
