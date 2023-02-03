@@ -23,3 +23,9 @@
 .restaurant-name i {
   font-size: $icon;
 }
+
+.heart {
+  @include heart;
+  right: 40px;
+  cursor: pointer;
+}
