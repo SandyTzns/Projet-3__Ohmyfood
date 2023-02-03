@@ -13,15 +13,18 @@
 
   .btn {
     @include button;
-    margin:30px 0 0 0 ;
+    margin: 30px 0 0 0;
   }
 }
 
-.restaurant-name i {
+.restaurant-name .heart {
+  position: absolute;
+  right: 40px;
+  color: transparent;
   font-size: $icon;
-  transition: all 0.4s ease-out;
 
   &:hover {
+    cursor: pointer;
     color: $no-color;
     background-clip: text;
     background-image: linear-gradient(

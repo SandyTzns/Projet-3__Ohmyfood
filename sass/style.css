@@ -537,6 +537,13 @@ ul {
   box-shadow: 0px 0px 11px 5px hsla(0deg, 1%, 26%, 0.13);
   z-index: auto;
 }
+.restaurant__card:hover i {
+  transition: all 0.5s ease-in-out;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(176deg, rgb(255, 121, 218) 21%, rgb(147, 86, 220) 100%);
+}
 .restaurant__card .new {
   position: absolute;
   background-color: #99e2d0;
@@ -562,15 +569,15 @@ ul {
   padding-right: 20px;
   padding-left: 10px;
 }
+.restaurant__infos .heart {
+  position: absolute;
+  right: 20px;
+  color: transparent;
+  font-size: 25px;
+}
 .restaurant__infos i {
   font-size: 25px;
-  transition: all 0.4s ease-out;
-}
-.restaurant__infos i:hover {
-  color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-  background-image: linear-gradient(176deg, rgb(255, 121, 218) 21%, rgb(147, 86, 220) 100%);
+  padding-left: 2px;
 }
 .restaurant__name-city h2,
 .restaurant p {
@@ -754,11 +761,14 @@ ul {
   transition: all 0.4s ease-in-out;
 }
 
-.restaurant-name i {
+.restaurant-name .heart {
+  position: absolute;
+  right: 40px;
+  color: transparent;
   font-size: 25px;
-  transition: all 0.4s ease-out;
 }
-.restaurant-name i:hover {
+.restaurant-name .heart:hover {
+  cursor: pointer;
   color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
