@@ -1,8 +1,15 @@
-Projet-3\_\_Ohmyfood
+# Projet-3\_\_Ohmyfood
 
 Ohmyfood est un projet web permettant aux utilisateurs de découvrir et de réserver des menus dans des restaurants d'exception. Le site présente une sélection de restaurants et permet de composer des menus personnalisés.
 
-# Installation
+## Technologies Utilisées
+
+- **HTML** : Pour la structure du site web.
+- **SASS (CSS)** : Pour le style et la mise en page.
+- **Font Awesome** : Pour les icônes.
+- **Google Fonts** : Pour les polices de caractères.
+
+## Installation
 
 Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous :
 
